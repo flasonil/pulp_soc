@@ -65,7 +65,9 @@ jtag_pulp:
   commit: dbg_dev
 riscv:
   domain: [cluster, soc]
-  commit: 520ef0a418e3dc88d760fcb7092cdb15a81e724d
+  commit: master
+  server: https://github.com
+  group:  flasonil
 ibex:
   domain: [soc]
   commit: 13313952cd50ff04489f6cf3dba9ba05c2011a8b
