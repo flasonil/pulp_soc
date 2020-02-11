@@ -67,8 +67,10 @@ jtag_pulp:
   commit: v0.1
   domain: [soc]
 riscv:
-  commit: pulpissimo-v3.4.0
   domain: [cluster, soc]
+  commit: master
+  server: https://github.com
+  group:  flasonil
 ibex:
   commit: 13313952cd50ff04489f6cf3dba9ba05c2011a8b
   group: lowRISC
