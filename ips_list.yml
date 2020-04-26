@@ -68,7 +68,7 @@ jtag_pulp:
   domain: [soc]
 riscv:
   domain: [cluster, soc]
-  commit: master
+  commit: id-lockstep
   server: https://github.com
   group:  flasonil
 ibex:
